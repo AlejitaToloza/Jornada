@@ -1,0 +1,149 @@
+:root {
+    /* Colors */
+    --blanco: #fff;
+    --negro: #000;
+    --neutral-c: #f5f5f5;
+    --gris-oscuro: #8c8c8c;
+    --grafito: #222;
+    --rojo: #b81515;
+}
+
+* {
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.encabezado__container {
+    background: var(--negro);
+    width: 100%;
+    padding: 40px 0;
+}
+
+.encabezado {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.encabezado__logo--icono {
+    max-width: 260px;
+}
+
+.encabezado__navegacion {
+    display: flex;
+    gap: 40px;
+}
+
+.encabezado__navegacion--lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.encabezado__navegacion--elemento {
+    color: var(--blanco);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonios__titulo,
+.pago__titulo,
+.destinos__titulo,
+.busca__titulo,
+.ofertas__titulo,
+.blog__titulo,
+.otras__publicaciones__titulo {
+    color: var(--grafito);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.testimonios__titulo--subrayado,
+.pago__titulo--subrayado,
+.destinos__titulo--subrayado,
+.busca__titulo--subrayado,
+.ofertas__titulo--subrayado,
+.blog__titulo--subrayado, 
+.otras__publicaciones--subrayado {
+    width: 180px;
+    height: 4px;
+    background: var(--rojo);
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+
+
+.footer__container {
+    background: var(--negro);
+    width: 100%;
+    padding: 40px 0;
+    margin-top: -4px;
+}
+
+.footer {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--blanco, --blanco);
+}
+
+.footer__logo-icon {
+    max-width: 160px;
+    margin-bottom: 16px;
+}
+
+.footer__info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer__text-info {
+    color: var(--neutral-c, --neutral-c);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.footer__social-media-container {
+    text-align: center;
+}
+
+.footer__social-media-text {
+    color: var(--neutral-c, --neutral-c);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+
+
+

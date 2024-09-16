@@ -1,0 +1,79 @@
+main {
+    width: 100%; /* O el valor que desees */
+    max-width: 1200px; /* Limitar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+
+.blog__informacion,
+.blog__acomodacion{
+    display: flex;
+    gap: 24px;
+}
+
+.blog__informacion--imagen{
+    max-width: 100%;
+}
+
+.blog__informacion--destaque,
+.blog__acomodacion--destaque,
+.blog__explorando--destaque,
+.blog__compras--destaque,
+.blog__gastronomia--destaque,
+.blog__conclusion--destaque,
+.otras__publicaciones--destaque {
+    color: var(--grafito, --grafito);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 24px 0;
+}
+
+.blog__informacion--descripcion,
+.blog__acomodacion--descripcion,
+.blog__explorando--descripcion,
+.blog__compras--descripcion,
+.blog__gastronomia--descripcion,
+.blog__conclusion--descripcion,
+.otras__publicaciones--descripcion {
+    font-size: 20px;
+}
+
+.otras__publicaciones--titulo {
+    display: flex;
+    gap: 24px;
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+
+.otras__publicaciones__grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra los artículos en la fila */
+    flex-wrap: wrap; /* Permite que los artículos se ajusten a múltiples filas */
+    width: 100%; /* Asegura que el grupo ocupe el 100% del ancho del contenedor */
+    margin: 0 auto; /* Centra el contenido */
+    padding: 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+
+
+.otras__publicaciones--imagen {
+    flex:1;
+    margin-top: 20px;
+    padding: 0;
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */    
+}
+
+.otras__publicaciones__osaka,
+.otras__publicaciones__hiroshima,
+.otras__publicaciones__kyoto {
+    flex: 1 1 300px; /* Permite que cada artículo tenga un ancho mínimo de 300px y se expanda */
+    margin: 10px; /* Espaciado entre artículos */
+    box-sizing: border-box; /* Incluir padding y borde en el cálculo del ancho */
+}

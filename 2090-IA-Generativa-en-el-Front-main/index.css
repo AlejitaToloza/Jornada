@@ -1,0 +1,255 @@
+.banner__img {
+    max-width: 100%;
+}
+
+.banner__descripcion {
+    max-width: 1200px;
+    color: var(--grafito, --grafito);
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 110px auto;
+}
+
+.ofertas {
+    margin-bottom: 112px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.ofertas__cards--grupo {
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ofertas__cards--elemento {
+    display: flex;
+    padding: 24px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 24px 32px;
+    color: var(--blanco);
+    flex: 1 0 calc(50% - 48px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ofertas__cards--japon {
+    background-image: url("./img/tokyo.png");
+}
+
+.ofertas__cards--san-andres {
+    background-image: url("./img/san-andres.avif");
+}
+
+
+
+.ofertas__card--destino-tipo {
+    color: var(--blanco);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.ofertas__card--destino-nombre {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+
+.ofertas__card--precio {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.destinos__elemento--boton,
+.ofertas__card--boton {
+    border-radius: 8px;
+    background: var(--rojo, --rojo);
+    padding: 16px 48px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.destinos__elemento--boton-texto,
+.ofertas__card--boton-texto {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: var(--blanco, --blanco);
+}
+
+.busca__categorias {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+    margin-bottom: 112px;
+}
+
+.busca__categoria {
+    color: var(--grafito, --grafito);
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: var(--gris-claro, --neutral-c);
+    padding: 24px 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span.material-symbols-outlined {
+    color: var(--gris-oscuro, --gris-oscuro);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.destinos__lista {
+    display: flex;
+    align-items: stretch;
+    gap: 24px;
+    margin-bottom: 112px;
+}
+
+.destinos__elemento {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.destinos__elemento--image {
+    max-width: 100%;
+}
+
+.destinos__elemento--nombre {
+    color: var(--grafito, --grafito);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 24px 0;
+}
+
+.destinos__elemento--descripcion {
+    color: var(--grafito, --grafito);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+
+.pago {
+    margin-bottom: 112px;
+}
+
+.pago__imagenes--grupo,
+.pago__condiciones {
+    display: flex;
+    gap: 24px;
+}
+
+.pago__condiciones--destaque {
+    color: var(--grafito, --grafito);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.pago__condiciones--detalles {
+    color: var(--grafito, --grafito);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 384px;
+    max-width: 100%;
+    text-align: justify;
+}
+
+.pago__imagenes--imagen-container {
+    flex: 1;
+}
+
+.pago__imagenes--imagen-destaque {
+    margin-top: 20px;
+}
+
+.pago__imagenes--imagen {
+    max-width: 100%;
+}
+
+.testimonios {
+    margin-bottom: 112px;
+}
+
+.testimonios__wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+}
+
+.testimonios__elemento {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonios__texto {
+    color: var(--grafito, --grafito);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.testimonios__autor {
+    margin-top: 12px;
+    display: flex;
+    gap: 24px;
+}
+
+.testimonios__autor--foto {
+    max-width: 86px;
+}
+
+.testimonios__autor--nombre {
+    color: var(--grafito, --grafito);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
