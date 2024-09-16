@@ -87,6 +87,11 @@ img {
     gap: 24px;
     margin-bottom: 112px;
 }
+@media screen and (width <= 768px) {
+    .busca__categorias{
+        flex-direction: column;
+    }
+}
 
 .busca__categoria {
     color: var(--grafito, --grafito);
@@ -114,10 +119,16 @@ span.material-symbols-outlined {
 
 .destinos__lista {
     display: flex;
-    align-items: stretch;
     gap: 24px;
     margin-bottom: 112px;
 }
+
+@media screen and (width <= 768px) {
+    .destinos__lista{
+        flex-direction: column;
+    }
+}
+
 
 .destinos__elemento {
     flex: 1;
@@ -158,6 +169,11 @@ span.material-symbols-outlined {
     display: flex;
     gap: 24px;
 }
+@media screen and (width <= 768px) {
+    .pago__condiciones{
+        flex-direction: column;
+    }
+}
 
 .pago__condiciones--destaque {
     color: var(--grafito, --grafito);
@@ -174,8 +190,8 @@ span.material-symbols-outlined {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    width: 384px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 384px;
     text-align: justify;
 }
 
@@ -199,6 +215,13 @@ span.material-symbols-outlined {
     display: flex;
     gap: 24px;
     align-items: stretch;
+}
+
+
+@media screen and (width <= 768px) {
+    .testimonios__wrapper{
+        flex-direction: column;
+    }
 }
 
 .testimonios__elemento {

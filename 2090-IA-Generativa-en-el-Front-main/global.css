@@ -35,6 +35,12 @@ a {
     margin: 0 auto;
 }
 
+@media screen and (width <= 768px) {
+    .encabezado{
+        flex-direction: column;
+    }
+}
+
 .encabezado__logo--icono {
     max-width: 260px;
 }
@@ -50,6 +56,12 @@ a {
     justify-content: space-between;
     gap: 40px;
 }
+@media screen and (width <= 768px) {
+    .encabezado__navegacion--lista{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 .encabezado__navegacion--elemento {
     color: var(--blanco);
@@ -62,6 +74,7 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    width: 90%;
 }
 
 .testimonios__titulo,
@@ -129,6 +142,12 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     color: var(--blanco, --blanco);
+}
+
+@media screen and (width <= 768px) {
+    .footer{
+        flex-direction: column;
+    }
 }
 
 .footer__logo-icon {
