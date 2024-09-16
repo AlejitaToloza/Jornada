@@ -37,9 +37,10 @@ ________________________________________________________________________________
 
 <h2>DESARROLLO DEL PROYECTO</h2>
 
-* He realizado las mejoras necesarias en la sintáxis y semántica, con el fin de refactorizar el código y darle mayor porcentaje de accesibilidad, mejorar prácticas, rendimiento y SEO (Optimización en Motores de Búsqueda).
-* Utilizando la herramienta _Lighthouse_, logré obtener el siguiente resultado en la página `index`
+✔️ He realizado las mejoras necesarias en la sintáxis y semántica, con el fin de refactorizar el código y darle mayor porcentaje de accesibilidad, mejorar prácticas, rendimiento y SEO (Optimización en Motores de Búsqueda).
+
+✔️ Utilizando la herramienta _Lighthouse_, logré obtener el siguiente resultado en la página `index`.
  
  ![Screenshot 2024-09-15 010129](https://github.com/user-attachments/assets/ce61ca9c-e293-47af-a4ce-5a6fcb176f3c)
 
-* Actualmente estoy desarrollando la página _"Blog"_
+✔️ He desarrollado la página _"Blog"_, realizando la conexión entre la página principal `index` y viceversa.
