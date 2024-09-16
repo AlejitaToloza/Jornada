@@ -55,12 +55,10 @@ main {
     flex-direction: row;
     justify-content: center; /* Centra los artículos en la fila */
     flex-wrap: wrap; /* Permite que los artículos se ajusten a múltiples filas */
-    width: 100%; /* Asegura que el grupo ocupe el 100% del ancho del contenedor */
-    margin: 0 auto; /* Centra el contenido */
+    margin: 0 0 30px; /* Centra el contenido */
     padding: 20px; /* Espaciado interno */
     box-sizing: border-box; /* Incluir padding en el ancho total */
 }
-
 
 .otras__publicaciones--imagen {
     flex:1;
@@ -74,6 +72,6 @@ main {
 .otras__publicaciones__hiroshima,
 .otras__publicaciones__kyoto {
     flex: 1 1 300px; /* Permite que cada artículo tenga un ancho mínimo de 300px y se expanda */
-    margin: 10px; /* Espaciado entre artículos */
+    margin: 0 auto; /* Espaciado entre artículos */
     box-sizing: border-box; /* Incluir padding y borde en el cálculo del ancho */
 }

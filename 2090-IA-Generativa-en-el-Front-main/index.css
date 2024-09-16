@@ -81,24 +81,6 @@ img {
     margin-bottom: 24px;
 }
 
-.destinos__elemento--boton,
-.ofertas__card--boton {
-    border-radius: 8px;
-    background: var(--rojo, --rojo);
-    padding: 16px 48px;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
-.destinos__elemento--boton-texto,
-.ofertas__card--boton-texto {
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-    color: var(--blanco, --blanco);
-}
-
 .busca__categorias {
     display: flex;
     align-items: stretch;
